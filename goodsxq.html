@@ -114,60 +114,75 @@
                     <span class="active"><a>商品</a></span>
                 </div>
             </div>
-<!-- add -->
-            <div class="add">
-                    <form action="">
-                        <div class="txt">
-                            <div><p><span>*</span>分类名称:</p></div>
-                            <div><input type="text" /></div>
-                        </div>
-                        <div class="txt">
-                            <div><p><span>*</span>分类选择:</p></div>
-                            <div>
-                                <select>
-                                    <option>--请选择--</option>
-                                    <option value ="vivo">vivo</option>
-                                    <option value ="苹果">苹果</option>
-                                    <option value="oppo">oppo</option>
-                                    <option value="华为">华为</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="txt">
-                            <div><p><span>*</span>排序:</p></div>
-                            <div><input type="text" /></div>
-                        </div>
-                        <div class="sx">
-                            <div><p>是否显示:</p></div>
-                            <div class="dx">
-                                <input type="radio" name="gender" value="male" checked>是
-                                <input type="radio" name="gender" value="female">否
-                            </div>
-                        </div>
+<!-- 商品页 -->
+           <div class="luob">
+               <div class="search_g">
+                   <div class="search_d">
+                       <!-- <p></p> -->
+                       <span>商品</span>
+                       <div class="sea_list">
+                            <ul>
+                                <li class="tab_title">
+                                    <div><p>商品图片</p></div>
+                                    <div><p>商品名称</p></div>
+                                    <div><p>价格/货号</p></div>
+                                    <div><p>属性</p></div>
+                                    <div><p>数量</p></div>
+                                    <div><p>小计</p></div>
+                                </li>
+                                <li class="tab_title">
+                                    <div><p><img src="./images/2.jpg"></p></div>
+                                    <div>
+                                        <p>华为 HUAWEI P20</p>
+                                        <p>品牌：华为</p>
+                                    </div>
+                                    <div>
+                                        <p>价格：￥3585.98</p>
+                                        <p>货号：NO.26</p>
+                                    </div>
+                                    <div>
+                                        <p>颜色：金色;</p>
+                                        <p>内存：16G</p>
+                                    </div>
+                                    <div><p>1</p></div>
+                                    <div><p>￥3585.98</p></div>
+                                </li>
+                                
+                            </ul>
+                       </div>
+                       <div class="total">
+                           <span>合计：</span>
+                           <span>￥3585.98</span>
+                       </div>
+                   </div>
 
-                        <div class="pic">
-                            <div><p>分类图标:</p></div>
-                            <!-- accept="image/gif, image/jpeg" -->
-                            <div><input type="file" name="pic" id="pic" /></div>
-                        </div>
+                   
 
-                        <div class="txt">
-                            <div><p><span>*</span>关键词:</p></div>
-                            <div><input type="text" /></div>
-                        </div>
+               </div>
+                <div class="eltitle">
+                    <span>商品列表</span>
+                    <button>添加商品</button>
+                </div>
 
-                        <div class="bz">
-                            <div><p>分类描述:</p></div>
-                            <div><textarea row="3" col="4">请输入你要填写的备注</textarea></div>
-                        </div>
+                <div class="tablis">
+                    
+                    
+                </div>
 
-                        <div class="butt">
-                            <button>提交</button>
-                            <button>重置</button>
-                        </div>
-                    </form>
-            </div>
 
+                <div class="page">
+                    <span>共11条</span>
+                    <button class="previous"><i></i></button>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul>
+                    <button class="next"><i></i></button>
+                    <span>前往<input type="text">页</span>
+                </div>
+           </div>
         </div>
     </div>
     <div class="footer"></div>

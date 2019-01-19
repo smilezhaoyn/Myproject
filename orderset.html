@@ -114,60 +114,64 @@
                     <span class="active"><a>商品</a></span>
                 </div>
             </div>
-<!-- add -->
-            <div class="add">
-                    <form action="">
-                        <div class="txt">
-                            <div><p><span>*</span>分类名称:</p></div>
-                            <div><input type="text" /></div>
-                        </div>
-                        <div class="txt">
-                            <div><p><span>*</span>分类选择:</p></div>
-                            <div>
-                                <select>
-                                    <option>--请选择--</option>
-                                    <option value ="vivo">vivo</option>
-                                    <option value ="苹果">苹果</option>
-                                    <option value="oppo">oppo</option>
-                                    <option value="华为">华为</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="txt">
-                            <div><p><span>*</span>排序:</p></div>
-                            <div><input type="text" /></div>
-                        </div>
-                        <div class="sx">
-                            <div><p>是否显示:</p></div>
-                            <div class="dx">
-                                <input type="radio" name="gender" value="male" checked>是
-                                <input type="radio" name="gender" value="female">否
-                            </div>
-                        </div>
+<!-- 轮播 -->
+           <div class="luob">
+                <!-- <div class="eltitle">
+                    <span>数据列表</span>
+                    <button>添加Banner</button>
+                </div> -->
 
-                        <div class="pic">
-                            <div><p>分类图标:</p></div>
-                            <!-- accept="image/gif, image/jpeg" -->
-                            <div><input type="file" name="pic" id="pic" /></div>
-                        </div>
+                <div class="order_set">
 
-                        <div class="txt">
-                            <div><p><span>*</span>关键词:</p></div>
-                            <div><input type="text" /></div>
+                    <div class="el_set">
+                        <div class="el_title">秒杀订单超过：</div>
+                        <div class="el_num">
+                            <input type="text" value="111" />
+                            <div>分</div>
                         </div>
+                        <div class="el_note">未付款，订单自动关闭</div>
+                    </div>
 
-                        <div class="bz">
-                            <div><p>分类描述:</p></div>
-                            <div><textarea row="3" col="4">请输入你要填写的备注</textarea></div>
+
+                    <div class="el_set">
+                        <div class="el_title">正常订单超过：</div>
+                        <div class="el_num">
+                            <input type="text" value="111" />
+                            <div>分</div>
                         </div>
+                        <div class="el_note">未付款，订单自动关闭</div>
+                    </div>
 
-                        <div class="butt">
-                            <button>提交</button>
-                            <button>重置</button>
+
+                    <div class="el_set">
+                        <div class="el_title">发货超过：</div>
+                        <div class="el_num">
+                            <input type="text" value="111" />
+                            <div>天</div>
                         </div>
-                    </form>
-            </div>
+                        <div class="el_note">未付款，订单自动关闭</div>
+                    </div>
 
+
+                    <div class="el_set">
+                        <div class="el_title">订单完成超过：</div>
+                        <div class="el_num">
+                            <input type="text" value="111" />
+                            <div>天</div>
+                        </div>
+                        <div class="el_note">自动结束交易，不能申请售后</div>
+                    </div>
+                    
+                    <div class="el_set">
+                        <div class="el_title">订单超过：</div>
+                        <div class="el_num">
+                            <input type="text" value="111" />
+                            <div>天</div>
+                        </div>
+                        <div class="el_note">自动五星好评</div>
+                    </div>
+                </div>
+           </div>
         </div>
     </div>
     <div class="footer"></div>
